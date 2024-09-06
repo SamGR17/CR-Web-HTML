@@ -1,0 +1,112 @@
+/* Mobile Version */
+
+@media only screen and (max-width: 620px) {
+    a:hover {
+        background-color: wheat;
+    }
+
+    a {
+        margin-left: 5px;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        height: 350px;
+        border: 5px solid chocolate;
+        border-radius: 15px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 40px;
+        text-shadow: 0px 4px 5px gray;
+    }
+
+    .facts-border {
+        border: 10px solid chocolate;
+        border-style: double;
+        margin: 15px;
+    }
+
+    .directors2 {
+        text-align: center;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+    }
+
+    ul {
+        padding: 0 40px;
+        font-size: large;
+        text-align: center;
+    }
+
+    .evil-change-font {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
+
+/* Website Version */
+
+@media only screen and (min-width: 621px) {
+    a:hover {
+        background-color: wheat;
+    }
+
+    a {
+        margin-left: 5px;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        height: 350px;
+        border: 5px solid chocolate;
+        border-radius: 15px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 40px;
+        text-shadow: 0px 4px 5px gray;
+        font-size: 50px;
+    }
+
+    .facts-border {
+        border: 10px solid chocolate;
+        border-style: double;
+        margin: 15px;
+    }
+
+    .directors2 {
+        text-align: center;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+    }
+
+    .evil-change-font {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 25px;
+    }
+}
